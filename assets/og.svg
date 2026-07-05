@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d0620"/><stop offset="0.5" stop-color="#7a123f"/><stop offset="1" stop-color="#9e1852"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#g)"/>
+<text x="70" y="150" font-family="Georgia,serif" font-size="30" fill="#d99a2b" letter-spacing="4">SEGUIR EL DINERO · MEF · OECE · OPENALEX</text>
+<text x="66" y="252" font-family="Georgia,serif" font-size="66" font-weight="700" fill="#ffffff">Observatorio La Cantuta</text>
+<text x="70" y="315" font-family="Georgia,serif" font-size="25" fill="#f2d3e2">U.N. de Educación Enrique Guzmán y Valle</text>
+<text x="70" y="435" font-family="-apple-system,Arial" font-size="29" fill="#f2d3e2">En qué gasta cada sol · a quién le paga ·</text>
+<text x="70" y="478" font-family="-apple-system,Arial" font-size="29" fill="#f2d3e2">qué investiga. Datos públicos.</text>
+<text x="70" y="588" font-family="-apple-system,Arial" font-size="23" fill="#d99a2b">unimauro.github.io/observatorio-cantuta</text>
+<text x="1035" y="205" font-size="130">🌸</text>
+</svg>
