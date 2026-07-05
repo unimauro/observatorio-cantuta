@@ -13,6 +13,20 @@ def tp(ruc):
 DP='https://www.datosperu.org/'
 CONS='https://conosce.osce.gob.pe/buscador/assets/67ae6c4a/reportes/consorcios/'
 duenos={
+ # --- CONSORCIOS (codigo SEACE) -> integrantes y sus gerentes (Reporte de Consorcios CONOSCE 2025) ---
+ '1647807':('Consorcio integrado por GRANDES XTRUCTURAS S.A.C. (RUC 20605238468, gte. Zea Rojas Christoph Willy), GONSAGI INGENIEROS S.A.C. (RUC 20600482506, gte. Gonzales Sanchez Gilmer) y MAQUINARIA Y CONSTRUCCION CONDOR ANDINO E.I.R.L. (RUC 20607483907, titular-gte. Benavides Cieza Geiner)', CONS+'2025/CONOSCE_CONSORCIO2025_0.xlsx'),
+ '1740854':('Consorcio integrado por GRUPO G & S SECURITY S.A.C. (RUC 20604499748, gte. Medina Huerto Yemmy Gilmer) y SEGURIDAD JUCINU SELVA S.A.C. (RUC 20606346639, gte. Franco Fuentes Micaela Julia)', CONS+'2025/CONOSCE_CONSORCIO2025_0.xlsx'),
+ '1693250':('Consorcio integrado por GRUPO G & S SECURITY S.A.C. (RUC 20604499748, gte. Medina Huerto Yemmy Gilmer) y SEGURIDAD JUCINU SELVA S.A.C. (RUC 20606346639, gte. Franco Fuentes Micaela Julia)', CONS+'2025/CONOSCE_CONSORCIO2025_0.xlsx'),
+ # --- EMPRESAS (RUC 20) -> gerente general / representante segun datosperu.org ---
+ '20416207900':('Gerente general: Chong Muñoz Juan Jose (director: Schmidt Alvarez Emilio Alberto)', DP+'empresa-transportes-thornado-sac-20416207900.php'),
+ '20330055805':('Titular-gerente: Vasquez Zavala Jose Teofilo', DP+'empresa-distribuidora-jovaza-eirl-20330055805.php'),
+ '20608794388':('Gerente general: Alcarraz Mucha Aderly Franks', DP+'empresa-goods-island-partners-sac-20608794388.php'),
+ '20568286562':('Gerente general: Minaya Daza Hillary Jenyfer (C.I.S. Viproser SAC)', DP+'empresa-compania-de-inversiones-y-servicios-vigilancia-proteccion-seguridad-y-resguardo-sac-20568286562.php'),
+ '20100070970':('Supermercados Peruanos S.A. (Plaza Vea/Vivanda); grupo Intercorp Retail / InRetail, controlado por Carlos Rodriguez-Pastor Persivale', DP+'empresa-supermercados-peruanos-sociedad-anonima-o-s-p-s-a-20100070970.php'),
+ '20600270002':('Gerente: Macedo Diaz Frank (apoderado: Renteria Osorio Rodrigo Fabian)', DP+'empresa-rgr-equipos-y-maquinarias-eirl-20600270002.php'),
+ '20109072177':('Cencosud Retail Peru S.A. (Wong/Metro); grupo Cencosud S.A. (Chile, familia Paulmann)', DP+'empresa-cencosud-retail-peru-sa-20109072177.php'),
+ '20101320295':('Director gerente: Cardenas Acosta Amado Manuel (Laboratorio Diesel Senatinos S.A.)', DP+'empresa-laboratorio-diesel-senatinos-sa-20101320295.php'),
+ '20523550871':('Gerente general: Abregu Castro Denissi Yanina', DP+'empresa-negociaciones-caryder-sac-20523550871.php'),
 }
 
 rows=[]
